@@ -5,6 +5,10 @@ DOMAIN-SUFFIX,line-apps.com
 DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
 USER-AGENT,Line*
+DOMAIN-SUFFIX,line-cdn.net,Proxy
+DOMAIN-SUFFIX,line-apps.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,line.me,Proxy,force-remote-dns
+DOMAIN-SUFFIX,line.naver.jp,Proxy,force-remote-dns
 
 IP-CIDR,103.2.28.0/24,no-resolve
 IP-CIDR,103.2.30.0/23,no-resolve
@@ -62,3 +66,15 @@ IP-CIDR,203.104.156.0/24,no-resolve
 IP-CIDR,203.104.157.0/24,no-resolve
 IP-CIDR,203.104.158.0/24,no-resolve
 IP-CIDR6,2400:dcc0::/32,no-resolve
+IP-CIDR,119.235.224.0/21,Proxy,no-resolve
+IP-CIDR,203.104.128.0/20,Proxy,no-resolve
+IP-CIDR,119.235.235.0/24,Proxy,no-resolve
+IP-CIDR,119.235.236.0/23,Proxy,no-resolve
+IP-CIDR,125.6.149.0/24,Proxy,no-resolve
+IP-CIDR,203.174.66.64/26,Proxy,no-resolve
+IP-CIDR,125.6.190.0/24,Proxy,no-resolve
+IP-CIDR,203.104.103.0/24,Proxy,no-resolve
+IP-CIDR,203.174.77.0/24,Proxy,no-resolve
+IP-CIDR,125.6.146.0/24,Proxy,no-resolve
+IP-CIDR,119.235.232.0/23,Proxy,no-resolve
+IP-CIDR,103.2.28.0/22,Proxy,no-resolve
